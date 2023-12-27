@@ -211,7 +211,7 @@ public class ConsoleApp
                     if(recharge==1)
                     {
                         System.out.println("Enter the amount to recharge: ");
-                        int sum=scanner.nextInt();
+                        double sum=scanner.nextDouble();
                         scanner.nextLine();
                         client.recharge(sum);
                         client.checkAccount();
