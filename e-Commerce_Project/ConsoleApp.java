@@ -4,16 +4,15 @@ public class ConsoleApp
 {
     private static ProductManagement productManagement = new ProductManagement();
     private static AuthenticationService authenticationService = new AuthenticationService();
-    // static users added.
-    User admin=new Admin("admin","admin", authenticationService, productManagement);
-    User client1=new Client("client", "123", authenticationService, productManagement);
-    // static products added.
-    Product product1= new ElectronicsProduct("ASUS", 399.99, 20, electronicsTYPE.valueOf("LAPTOP"));
-    Product product2= new ClothingProduct("HA SWEATER", 35.49, 20, clothingTYPE.valueOf("SWEATER"));
-    
     
     public void MainMenu() 
     {
+        // static users added.
+        User admin=new Admin("admin","admin", authenticationService, productManagement);
+        User client1=new Client("client", "123", authenticationService, productManagement);
+        // static products added.
+        Product product1= new ElectronicsProduct("ASUS", 399.99, 20, electronicsTYPE.valueOf("LAPTOP"));            
+        Product product2= new ClothingProduct("HA SWEATER", 35.49, 20, clothingTYPE.valueOf("SWEATER"));
         Scanner scanner = new Scanner(System.in);
         authenticationService.addUser(admin);
         authenticationService.addUser(client1);
