@@ -1,7 +1,7 @@
 # E-Commerce Console Application
 
 ## Overview
-This Java-based console application serves as an e-commerce system (console app) that I named 'Virtu-Cart' providing functionalities for users to manage products, shopping carts, and orders. It incorporates object-oriented programming principles to facilitate user authentication, product management, and order processing.
+This Java-based console application serves as an e-commerce system that I named 'Virtu-Cart' providing functionalities for users to manage products, shopping carts, and orders. It incorporates object-oriented programming principles to facilitate user authentication, product management, and order processing.
 
 ## Features
 
