@@ -59,6 +59,8 @@ In case of approval, the client receives a full refund of the product in questio
 ## Future Enhancements
 - Potential areas for improvement include:
   - Adding the Products suggestions based on the client's history.
+  - Adding various product Types.
+  - Linking the project to a database not to lose data once exiting the program.
   - Enhancing code's readability.
 
 ## Contributing
